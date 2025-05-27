@@ -1,14 +1,19 @@
-import './index.css'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Layout from './components/Layout';
 
 function App() {
-
   return (
-    <>
-      <div className='w-full h-screen flex items-center justify-center bg-indigo-800'>
-        <h1 className='text-center text-blue-300 text-6xl'>Testando o TailwindCSS</h1>
-      </div>
-    </>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route element={<Layout />}>
+          <Route path="/" element={<div>Home</div>} />
+          <Route path="/profile" element={<div>Perfil</div>} />
+          <Route path="/resume" element={<div>Currículo</div>} />
+          <Route path="/projects" element={<div>Projetos</div>} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
