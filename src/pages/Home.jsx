@@ -32,9 +32,11 @@ const Home = () => (
 				transition={{ delay: 0.2, type: 'spring', stiffness: 200 }}
 				className="w-36 h-36 mx-auto rounded-full bg-gradient-to-r from-purple-400 to-orange-400 flex items-center justify-center mb-6 shadow-lg"
 			>
-				<div className="w-32 h-32 bg-black rounded-full flex items-center justify-center text-4xl font-bold text-white">
-					ML
-				</div>
+				<img
+					src="/assets/Perfil-01.png" // coloque sua imagem em public/assets/
+					alt="Foto de Marcelo Lopez"
+					className="w-32 h-32 rounded-full object-cover"
+				/>
 			</motion.div>
 			<motion.h1
 				initial={{ opacity: 0, y: 30 }}
@@ -61,14 +63,14 @@ const Home = () => (
 			>
 				<a
 					href="/projects"
-					className="bg-purple-600 text-white px-6 py-3 rounded-lg shadow-md hover:bg-purple-700 transition-colors flex items-center gap-2"
+					className="bg-purple-600 text-white px-4 py-2 rounded-lg shadow-md hover:bg-purple-700 transition-colors flex items-center gap-2"
 				>
 					Ver Projetos
 					<ArrowRight size={18} />
 				</a>
 				<a
 					href="/resume"
-					className="border border-orange-500 text-orange-500 px-6 py-3 rounded-lg hover:bg-orange-500 hover:text-white transition-colors"
+					className="border border-orange-500 text-orange-500 px-4 py-2 rounded-lg hover:bg-orange-500 hover:text-white transition-colors"
 				>
 					Download CV
 				</a>

@@ -87,7 +87,11 @@ export default function Profile() {
               <div className="text-center pb-4 pt-8">
                 <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-r from-purple-500 to-orange-500 p-1">
                   <div className="w-full h-full rounded-full bg-gray-900 flex items-center justify-center">
-                    <span className="text-4xl font-bold text-white">ML</span>
+                    <img
+                      src="/assets/Perfil-01.png" // coloque sua imagem em public/assets/
+                      alt="Foto de Marcelo Lopez"
+                      className="w-32 h-32 rounded-full object-cover"
+                    />
                   </div>
                 </div>
                 <div className="text-2xl text-white mb-2 font-bold">
