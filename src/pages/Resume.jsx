@@ -1,63 +1,102 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { Calendar, MapPin, Award, GraduationCap, Briefcase, Download } from "lucide-react";
+import {
+  Calendar,
+  MapPin,
+  Award,
+  GraduationCap,
+  Briefcase,
+  Download,
+} from "lucide-react";
 
 export default function Resume() {
   const experiences = [
     {
-      title: "Desenvolvedor Front-end Júnior",
-      company: "TechStart Solutions",
-      period: "Jan 2024 - Presente",
+      title: "Tester JR",
+      company: "Spread",
+      period: "Out 2024 - Presente",
       location: "São Paulo, SP",
-      description: "Desenvolvimento de interfaces responsivas usando React e TypeScript. Colaboração em projetos ágeis e implementação de melhorias de UX.",
-      technologies: ["React", "TypeScript", "Tailwind CSS", "Git"]
+      description:
+        "Foco em qualidade de software, com conhecimento em testes funcionais, regressivos e elaboração de casos de teste. Experiência na identificação de bugs e colaboração com desenvolvedores para garantir a qualidade do software.",
+      technologies: ["Azure", "Excel", "Testes Funcionais"],
     },
     {
-      title: "Estagiário Desenvolvimento Web",
-      company: "Digital Agency",
-      period: "Jul 2023 - Dez 2023",
-      location: "São Paulo, SP", 
-      description: "Criação de landing pages e manutenção de websites. Aprendizado de boas práticas de desenvolvimento e trabalho em equipe.",
-      technologies: ["HTML", "CSS", "JavaScript", "WordPress"]
-    }
+      title: "Community Manager",
+      company: "FIAP - Pós Tech",
+      period: "Jan 2024 - Out 2024",
+      location: "São Paulo, SP",
+      description:
+        "Responsável pela gestão e engajamento da comunidade de alunos no Discord, incluindo a criação e moderação de conteúdo, a promoção de um ambiente de aprendizado colaborativo, a organização de eventos virtuais e a coleta de feedbacks para aprimorar a experiência na plataforma.",
+      technologies: ["HTML", "CSS", "JavaScript", "WordPress"],
+    },
+    {
+      title: "Soldado",
+      company: "Esxercito Brasileiro",
+      period: "Mar 2019 - Mar 2023",
+      location: "São Paulo, SP",
+      description:
+        "Auxiliar no Gabinete do Comandante Militar do Sudeste, responsável pelo controle de agenda, documentos, materiais e logística, com uso do Pacote Office e foco em hierarquia e disciplina.",
+      technologies: ["Word", "Excel", "Power Point"],
+    },
+    
   ];
 
   const education = [
     {
-      degree: "Tecnólogo em Análise e Desenvolvimento de Sistemas",
+      degree: "Sistemas de Informação",
       institution: "FIAP",
-      period: "2022 - 2024",
+      period: "2022 - 2025",
       status: "Em andamento",
-      description: "Foco em desenvolvimento web, banco de dados e metodologias ágeis."
+      description:
+        "Foco em desenvolvimento web, banco de dados, metodologias ágeis e gerenciamento de projetos.",
     },
     {
-      degree: "Curso Técnico em Informática",
-      institution: "ETEC",
-      period: "2020 - 2021",
+      degree: "Ensino Médio",
+      institution: "Escola São José de Vila Matilde",
+      period: "2015 - 2017",
       status: "Concluído",
-      description: "Base sólida em programação, lógica e fundamentos da computação."
-    }
+      description:
+        "Ensino médio completo.",
+    },
   ];
 
   const certifications = [
     {
-      name: "React - The Complete Guide",
-      issuer: "Udemy",
-      date: "2023",
-      credential: "UC-123456789"
-    },
-    {
-      name: "JavaScript ES6+",
-      issuer: "Rocketseat",
-      date: "2023",
-      credential: "RS-987654321"
-    },
-    {
-      name: "Responsive Web Design",
-      issuer: "freeCodeCamp",
+      name: "Web & Game Developing",
+      issuer: "FIAP",
       date: "2022",
-      credential: "FCC-456789123"
-    }
+      credential: "UC-265548952",
+    },
+    {
+      name: "Lógica de Programação",
+      issuer: "Alura",
+      date: "2023",
+      credential: "RS-365412699",
+    },
+    {
+      name: "Java: Aplicando Orientação a Objetos,",
+      issuer: "Alura",
+      date: "2023",
+      credential: "FWV-156848232",
+    },
+    {
+      name: "Java: Criando sua primeira aplicação",
+      issuer: "Alura",
+      date: "2023",
+      credential: "THB-124765933",
+    },
+    {
+      name: "Banco de Dados Oracle",
+      issuer: "FIAP",
+      date: "2024",
+      credential: "FTK-659471585",
+    },
+    {
+      name: "Python",
+      issuer: "FIAP",
+      date: "2024",
+      credential: "FCC-9584621578",
+    },
   ];
 
   return (
@@ -73,7 +112,10 @@ export default function Resume() {
           <div className="flex flex-col sm:flex-row items-center justify-between mb-8">
             <div className="text-center sm:text-left">
               <h1 className="text-4xl lg:text-5xl font-bold text-white mb-4 mt-8">
-                Meu <span className="bg-gradient-to-r from-purple-400 to-orange-400 bg-clip-text text-transparent">Currículo</span>
+                Meu{" "}
+                <span className="bg-gradient-to-r from-purple-400 to-orange-400 bg-clip-text text-transparent">
+                  Currículo
+                </span>
               </h1>
               <p className="text-gray-400 text-lg">
                 Experiência profissional, formação acadêmica e certificações
@@ -119,10 +161,14 @@ export default function Resume() {
                   >
                     <div className="relative">
                       <div className="absolute -left-8 w-4 h-4 bg-gradient-to-r from-purple-500 to-orange-500 rounded-full" />
-                      
-                      <h3 className="text-xl font-bold text-white mb-1">{exp.title}</h3>
-                      <p className="text-purple-400 font-medium mb-2">{exp.company}</p>
-                      
+
+                      <h3 className="text-xl font-bold text-white mb-1">
+                        {exp.title}
+                      </h3>
+                      <p className="text-purple-400 font-medium mb-2">
+                        {exp.company}
+                      </p>
+
                       <div className="flex flex-wrap gap-4 text-sm text-gray-400 mb-3">
                         <span className="flex items-center">
                           <Calendar className="w-4 h-4 mr-1" />
@@ -133,12 +179,17 @@ export default function Resume() {
                           {exp.location}
                         </span>
                       </div>
-                      
-                      <p className="text-gray-300 mb-4 leading-relaxed">{exp.description}</p>
-                      
+
+                      <p className="text-gray-300 mb-4 leading-relaxed">
+                        {exp.description}
+                      </p>
+
                       <div className="flex flex-wrap gap-2">
                         {exp.technologies.map((tech, techIndex) => (
-                          <span key={techIndex} className="inline-block border border-purple-500/30 text-purple-300 px-2 py-0.5 rounded text-xs font-semibold bg-black/30">
+                          <span
+                            key={techIndex}
+                            className="inline-block border border-purple-500/30 text-purple-300 px-2 py-0.5 rounded text-xs font-semibold bg-black/30"
+                          >
                             {tech}
                           </span>
                         ))}
@@ -177,10 +228,16 @@ export default function Resume() {
                       className="p-4 bg-black/30 rounded-lg border border-gray-700/50"
                     >
                       <h4 className="font-bold text-white mb-1">{cert.name}</h4>
-                      <p className="text-orange-400 text-sm mb-1">{cert.issuer}</p>
+                      <p className="text-orange-400 text-sm mb-1">
+                        {cert.issuer}
+                      </p>
                       <div className="flex justify-between items-center">
-                        <span className="text-gray-400 text-sm">{cert.date}</span>
-                        <span className="text-xs text-gray-500">{cert.credential}</span>
+                        <span className="text-gray-400 text-sm">
+                          {cert.date}
+                        </span>
+                        {/* <span className="text-xs text-gray-500">
+                          {cert.credential}
+                        </span> */}
                       </div>
                     </motion.div>
                   ))}
@@ -218,10 +275,14 @@ export default function Resume() {
                   >
                     <div className="relative">
                       <div className="absolute -left-8 w-4 h-4 bg-gradient-to-r from-orange-500 to-purple-500 rounded-full" />
-                      
-                      <h3 className="text-xl font-bold text-white mb-1">{edu.degree}</h3>
-                      <p className="text-orange-400 font-medium mb-2">{edu.institution}</p>
-                      
+
+                      <h3 className="text-xl font-bold text-white mb-1">
+                        {edu.degree}
+                      </h3>
+                      <p className="text-orange-400 font-medium mb-2">
+                        {edu.institution}
+                      </p>
+
                       <div className="flex flex-wrap gap-4 text-sm text-gray-400 mb-3">
                         <span className="flex items-center">
                           <Calendar className="w-4 h-4 mr-1" />
@@ -229,16 +290,20 @@ export default function Resume() {
                         </span>
                         <span
                           className={`inline-block border px-2 py-0.5 rounded text-xs font-semibold
-                            ${edu.status === 'Concluído'
-                              ? 'border-green-500/30 text-green-300 bg-black/30'
-                              : 'border-orange-500/30 text-orange-300 bg-black/30'}
+                            ${
+                              edu.status === "Concluído"
+                                ? "border-green-500/30 text-green-300 bg-black/30"
+                                : "border-orange-500/30 text-orange-300 bg-black/30"
+                            }
                           `}
                         >
                           {edu.status}
                         </span>
                       </div>
-                      
-                      <p className="text-gray-300 leading-relaxed">{edu.description}</p>
+
+                      <p className="text-gray-300 leading-relaxed">
+                        {edu.description}
+                      </p>
                     </div>
                   </motion.div>
                 ))}
