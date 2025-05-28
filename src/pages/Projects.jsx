@@ -45,7 +45,7 @@ const PROJECTS = [
     title: "Regency Agenda",
     description:
       "Uma aplicação web moderna para gerenciamento de agendamentos de um salão de beleza, com múltiplos profissionais.",
-    image_url: "./../../public/assets/RegencyAgenda.png",
+    image_url: "/assets/RegencyAgenda.png",
     featured: false,
     status: "in_progress",
     technologies: ["React", "Tailwind CSS", "Vite", "React Hook Form", "date-fns"],
