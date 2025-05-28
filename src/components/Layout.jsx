@@ -90,7 +90,7 @@ const Layout = () => {
                 to={item.path}
                 onClick={() => setIsMenuOpen(false)}
                 className={({ isActive }) =>
-                  `block py-2 pl-3 text-gray-300 hover:bg-purple-600/20 flex items-center gap-2 rounded-lg ${
+                  `py-2 pl-3 text-gray-300 hover:bg-purple-600/20  items-center gap-2 rounded-lg ${
                     isActive
                       ? 'bg-gradient-to-r from-purple-600/20 to-orange-600/20 text-white border border-purple-500/30'
                       : ''
