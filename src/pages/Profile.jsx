@@ -63,7 +63,7 @@ export default function Profile() {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h1 className="text-4xl lg:text-5xl font-bold text-white mb-4">
+          <h1 className="text-4xl lg:text-5xl font-bold text-white mb-4 mt-8">
             Sobre{" "}
             <span className="bg-gradient-to-r from-purple-400 to-orange-400 bg-clip-text text-transparent">
               Mim
