@@ -44,7 +44,7 @@ const PROJECTS = [
     id: 4,
     title: "Regency Agenda",
     description:
-      "Uma aplicação web moderna para gerenciamento de agendamentos de um salão de beleza, com múltiplos profissionais, desenvolvida em React + Vite.",
+      "Uma aplicação web moderna para gerenciamento de agendamentos de um salão de beleza, com múltiplos profissionais.",
     image_url: "./../../public/assets/RegencyAgenda.png",
     featured: false,
     status: "in_progress",
@@ -217,7 +217,7 @@ export default function Projects() {
                         <img
                           src={project.image_url}
                           alt={project.title}
-                          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                          className="w-full h-full object-cover transition-transform duration-500"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent" />
 

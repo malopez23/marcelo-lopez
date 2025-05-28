@@ -4,19 +4,19 @@ import { Code, Paintbrush, Rocket, ArrowRight } from 'lucide-react';
 const services = [
 	{
 		title: 'Desenvolvimento Front-end',
-		description: 'Criação de interfaces modernas e responsivas com React, Vue e JavaScript.',
+		description: 'Construo interfaces responsivas e interativas com foco em performance, utilizando tecnologias como React, Vue e JavaScript.',
 		icon: Code,
 		iconBg: 'from-purple-500 to-violet-400',
 	},
 	{
 		title: 'Design UI/UX',
-		description: 'Experiências de usuário intuitivas com foco em usabilidade e acessibilidade.',
+		description: 'Crio experiências intuitivas e acessíveis que colocam o usuário no centro de cada decisão de design.',
 		icon: Paintbrush,
 		iconBg: 'from-orange-400 to-orange-600',
 	},
 	{
 		title: 'Performance',
-		description: 'Otimização de aplicações para máxima velocidade e eficiência.',
+		description: 'Acelero aplicações com foco em carregamento rápido, fluidez e alta performance em qualquer dispositivo.',
 		icon: Rocket,
 		iconBg: 'from-purple-400 to-orange-400',
 	},
@@ -80,10 +80,10 @@ const Home = () => (
 		{/* Seção "O que eu faço" */}
 		<section className="py-5 px-12 mt-12">
 			<h2 className="text-3xl lg:text-4xl font-bold text-white mb-4 text-center">
-				O que eu faço
+				Como posso ajudar seu projeto a se destacar?
 			</h2>
 			<p className="text-gray-400 text-lg max-w-2xl mx-auto text-center mb-12">
-				Especializado em desenvolvimento front-end moderno com foco em qualidade e inovação
+				Desenvolvo interfaces modernas, rápidas e intuitivas, aliando tecnologia e design com excelência.
 			</p>
 			<div className="grid md:grid-cols-3 gap-8">
 				{services.map((service, index) => (
@@ -113,13 +113,13 @@ const Home = () => (
 				whileInView={{ opacity: 1, y: 0 }}
 				viewport={{ once: true, amount: 0.3 }}
 				transition={{ duration: 0.6 }}
-				className="max-w-6xl bg-gradient-to-r from-[#2a153a] to-[#3a1c1c] rounded-2xl p-16 shadow-lg text-center border border-purple-500/20"
+				className="max-w-6xl bg-gradient-to-r from-[#2a153a] to-[#3a1c1c] rounded-2xl p-16 shadow-lg text-center border border-purple-500/20 max-sm:rounded-none"
 			>
 				<h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-					Vamos trabalhar juntos?
+					Vamos construir algo incrível juntos?
 				</h2>
 				<p className="text-gray-200 text-lg mb-8">
-					Estou sempre aberto a novas oportunidades e projetos interessantes. Entre em contato e vamos criar algo incrível!
+					Estou sempre aberto a novas ideias e projetos desafiadores. Me chama para conversar e transformar sua ideia em realidade!
 				</p>
 				<a
 					href="/profile"
