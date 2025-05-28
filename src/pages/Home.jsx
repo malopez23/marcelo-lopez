@@ -52,7 +52,7 @@ const Home = () => (
 				transition={{ duration: 0.5, delay: 0.4 }}
 				className="text-xl text-gray-300 mt-4 max-w-2xl mx-auto"
 			>
-				Desenvolvedor Front-end apaixonado por criar experiências digitais incríveis e interfaces que conectam pessoas
+				Desenvolvedor Front-end empenhado em expandir a tecnologia e inovação por criar experiências digitais incríveis e interfaces que conectam pessoas
 				à tecnologia.
 			</motion.p>
 			<motion.div
