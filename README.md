@@ -45,7 +45,7 @@ This portfolio is designed to provide an interactive and visually appealing expe
 Clone the repository:
 
 ```bash
-git clone https://github.com/seu-usuario/marcelo-portfolio.git
+git clone https://github.com/malopez23/marcelo-portfolio.git
 ```
 
 Navigate to the project directory:
