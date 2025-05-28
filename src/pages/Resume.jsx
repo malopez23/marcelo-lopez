@@ -27,7 +27,7 @@ export default function Resume() {
       location: "São Paulo, SP",
       description:
         "Responsável pela gestão e engajamento da comunidade de alunos no Discord, incluindo a criação e moderação de conteúdo, a promoção de um ambiente de aprendizado colaborativo, a organização de eventos virtuais e a coleta de feedbacks para aprimorar a experiência na plataforma.",
-      technologies: ["HTML", "CSS", "JavaScript", "WordPress"],
+      technologies: ["Discord", "Comunicação", "Ziim"],
     },
     {
       title: "Soldado",
