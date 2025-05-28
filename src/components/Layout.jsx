@@ -45,17 +45,17 @@ const Layout = () => {
           ))}
         </nav>
         <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-4">
-          <a href="https://github.com" className="text-gray-300 hover:text-purple-400">
+          <a href="https://github.com/malopez23" className="text-gray-300 hover:text-purple-400">
             <motion.div whileHover={{ rotate: -15 }}>
               <Github size={24} />
             </motion.div>
           </a>
-          <a href="https://linkedin.com" className="text-gray-300 hover:text-blue-400">
+          <a href="https://www.linkedin.com/in/marcelolopez23/" className="text-gray-300 hover:text-blue-400">
             <motion.div whileHover={{ rotate: 15 }}>
               <Linkedin size={24} />
             </motion.div>
           </a>
-          <a href="mailto:joao@example.com" className="text-gray-300 hover:text-orange-400">
+          <a href="mailto:malopez.rodriguez23@gmail.com" className="text-gray-300 hover:text-orange-400">
             <motion.div whileHover={{ rotate: -10 }}>
               <Mail size={24} />
             </motion.div>
@@ -102,13 +102,13 @@ const Layout = () => {
               </NavLink>
             ))}
             <div className="flex gap-4 mt-4 justify-center">
-              <a href="https://github.com" className="text-gray-300 hover:text-purple-400">
+              <a href="https://github.com/malopez23" className="text-gray-300 hover:text-purple-400">
                 <Github size={24} />
               </a>
-              <a href="https://linkedin.com" className="text-gray-300 hover:text-blue-400">
+              <a href="https://www.linkedin.com/in/marcelolopez23/" className="text-gray-300 hover:text-blue-400">
                 <Linkedin size={24} />
               </a>
-              <a href="mailto:joao@example.com" className="text-gray-300 hover:text-orange-400">
+              <a href="mailto:malopez.rodriguez23@gmail.com" className="text-gray-300 hover:text-orange-400">
                 <Mail size={24} />
               </a>
             </div>

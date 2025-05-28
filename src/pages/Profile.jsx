@@ -130,8 +130,8 @@ export default function Profile() {
 
                 <div className="flex justify-center space-x-4 pt-4">
                   {[
-                    { icon: Github, href: "#", color: "hover:text-purple-400" },
-                    { icon: Linkedin, href: "#", color: "hover:text-blue-400" },
+                    { icon: Github, href: "https://github.com/malopez23", color: "hover:text-purple-400" },
+                    { icon: Linkedin, href: "https://www.linkedin.com/in/marcelolopez23/", color: "hover:text-blue-400" },
                     {
                       icon: ExternalLink,
                       href: "#",
