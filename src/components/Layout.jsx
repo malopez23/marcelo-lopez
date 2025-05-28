@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Code, Paintbrush, Briefcase, Rocket, Github, Linkedin, Mail, Menu, X } from 'lucide-react';
+import { Code, User, Briefcase, Rocket, Github, Linkedin, Mail, Menu, X } from 'lucide-react';
 import { Outlet, NavLink } from 'react-router-dom';
 
 const Layout = () => {
@@ -8,19 +8,19 @@ const Layout = () => {
 
   const navItems = [
     { name: 'Home', path: '/', icon: <Code size={20} /> },
-    { name: 'Perfil', path: '/profile', icon: <Paintbrush size={20} /> },
+    { name: 'Perfil', path: '/profile', icon: <User size={20} /> },
     { name: 'Currículo', path: '/resume', icon: <Briefcase size={20} /> },
     { name: 'Projetos', path: '/projects', icon: <Rocket size={20} /> },
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-900 text-white">
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-gray-900 text-white w-full" style={{ margin: 0, padding: 0 }}>
       {/* Sidebar (Desktop) */}
       <motion.aside
         initial={{ x: -100, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         transition={{ duration: 0.5 }}
-        className="relative hidden lg:fixed lg:inset-y-0 lg:left-0 lg:z-50 lg:block lg:w-72 lg:overflow-y-auto bg-black/50 backdrop-blur-xl border-r border-purple-500/20"
+        className="hidden lg:block fixed inset-y-0 left-0 z-50 w-72 overflow-y-auto bg-black/50 backdrop-blur-xl border-r border-purple-500/20"
       >
         <div className="text-3xl font-bold bg-gradient-to-r from-purple-400 to-orange-400 bg-clip-text text-transparent text-center mt-6">
           Marcelo Lopez
@@ -116,18 +116,20 @@ const Layout = () => {
       </AnimatePresence>
 
       {/* Conteúdo Principal */}
-      <main className="lg:ml-72 p-6 min-h-screen pt-20 lg:pt-0">
-        <AnimatePresence mode="wait">
-          <motion.div
-            key={window.location.pathname}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -20 }}
-            transition={{ duration: 0.3, ease: 'easeInOut' }}
-          >
-            <Outlet />
-          </motion.div>
-        </AnimatePresence>
+      <main className="ml-0 lg:ml-72 pt-20 lg:pt-0 min-h-screen" style={{ margin: 0, padding: 0 }}>
+        <div className="lg:pl-72">
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={window.location.pathname}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -20 }}
+              transition={{ duration: 0.3, ease: 'easeInOut' }}
+            >
+              <Outlet />
+            </motion.div>
+          </AnimatePresence>
+        </div>
       </main>
     </div>
   );
