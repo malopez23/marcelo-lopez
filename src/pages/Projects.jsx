@@ -8,7 +8,7 @@ const PROJECTS = [
     title: "Wish List",
     description:
       "WishList é um aplicativo web moderno e interativo para organizar, filtrar e gerenciar todos os produtos desejados em um só lugar — não importa a loja!",
-    image_url: "./../../public/assets/WishList.png",
+    image_url: "/assets/WishList.png",
     featured: true,
     status: "completed",
     technologies: ["React", "Tailwind CSS", "TypeScript", "Vite"],
@@ -21,7 +21,7 @@ const PROJECTS = [
     title: "ZenWallet",
     description:
       "ZenWallet é um app web simples para controle financeiro pessoal, com gráficos interativos, resumos mensais e acompanhamento de receitas e despesas por categoria.",
-    image_url: "./../../public/assets/ZenWallet.png",
+    image_url: "/assets/ZenWallet.png",
     featured: true,
     status: "completed",
     technologies: ["React", "Tailwind CSS", "Vite", "Chart.js"],
@@ -33,7 +33,7 @@ const PROJECTS = [
     title: "Sky Scope",
     description:
       "Sky Scope é um app de previsão do tempo com tema escuro, feito em React e Tailwind. Exibe dados simulados em tempo real, previsão para 5 dias, busca por cidades e animação de carregamento.",
-    image_url: "./../../public/assets/SkyScope.png",
+    image_url: "/assets/SkyScope.png",
     featured: true,
     status: "completed",
     technologies: ["React", "Tailwind CSS", "Vite"],
