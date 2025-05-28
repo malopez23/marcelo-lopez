@@ -74,7 +74,7 @@ export default function Resume() {
       credential: "RS-365412699",
     },
     {
-      name: "Java: Aplicando Orientação a Objetos,",
+      name: "Java: Aplicando Orientação a Objetos",
       issuer: "Alura",
       date: "2023",
       credential: "FWV-156848232",
