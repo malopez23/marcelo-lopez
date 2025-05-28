@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Code, User, Briefcase, Rocket, Github, Linkedin, Mail, Menu, X } from 'lucide-react';
+import { Code, User, Briefcase, Rocket, Github, Linkedin, Mail, Menu, X, FileCode2 } from 'lucide-react';
 import { Outlet, NavLink } from 'react-router-dom';
 
 const Layout = () => {
@@ -64,8 +64,9 @@ const Layout = () => {
       </motion.aside>
 
       {/* Header (Mobile) */}
-      <header className="lg:hidden fixed top-0 left-0 right-0 bg-gradient-to-br from-gray-900 via-black to-gray-900 p-4 flex justify-between items-center z-50 shadow-md">
-        <div className="text-xl font-bold bg-gradient-to-r from-purple-400 to-orange-400 bg-clip-text text-transparent">
+      <header className="lg:hidden top-0 left-0 right-0 bg-gradient-to-br from-gray-900 via-black to-gray-900 p-4 flex justify-between items-center z-50 shadow-md">
+        <div className="text-xl font-bold flex items-center bg-gradient-to-r from-purple-400 to-orange-400 bg-clip-text text-transparent">
+          <FileCode2 size={22} className="mr-2 text-purple-400" />
           Marcelo Lopez
         </div>
         <button onClick={() => setIsMenuOpen(!isMenuOpen)}>
@@ -81,7 +82,7 @@ const Layout = () => {
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3 }}
-            className="relative lg:hidden bg-gradient-to-br from-gray-900 via-black to-gray-900 p-4 mt-16"
+            className="relative lg:hidden bg-gradient-to-br from-gray-900 via-black to-gray-900 p-4"
           >
             {navItems.map((item) => (
               <NavLink
