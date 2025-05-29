@@ -69,7 +69,8 @@ const Home = () => (
 					<ArrowRight size={18} />
 				</a>
 				<a
-					href="/resume"
+					href="/marcelo-curriculo.pdf"
+					download
 					className="border border-orange-500 text-orange-500 px-4 py-2 rounded-lg hover:bg-orange-500 hover:text-white transition-colors"
 				>
 					Download CV

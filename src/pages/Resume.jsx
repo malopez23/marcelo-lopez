@@ -122,7 +122,8 @@ export default function Resume() {
               </p>
             </div>
             <a
-              href="#"
+              href="/marcelo-curriculo.pdf"
+              download
               className="inline-flex items-center bg-gradient-to-r from-purple-600 to-orange-600 hover:from-purple-700 hover:to-orange-700 text-white font-bold px-6 py-3 rounded-lg shadow transition-colors mt-4 sm:mt-0"
             >
               <Download className="w-4 h-4 mr-2" />
