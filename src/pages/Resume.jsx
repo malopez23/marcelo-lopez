@@ -31,7 +31,7 @@ export default function Resume() {
     },
     {
       title: "Soldado",
-      company: "Esxercito Brasileiro",
+      company: "Exército Brasileiro",
       period: "Mar 2019 - Mar 2023",
       location: "São Paulo, SP",
       description:
@@ -65,7 +65,7 @@ export default function Resume() {
       name: "Web & Game Developing",
       issuer: "FIAP",
       date: "2022",
-      credential: "UC-265548952",
+      credential: "b2e9566489de9219b16b32cdc7d247a1",
     },
     {
       name: "Lógica de Programação",
@@ -89,13 +89,25 @@ export default function Resume() {
       name: "Banco de Dados Oracle",
       issuer: "FIAP",
       date: "2024",
-      credential: "FTK-659471585",
+      credential: "1fc2f2d24ddad6c440c294f5e498476a",
     },
     {
       name: "Python",
       issuer: "FIAP",
       date: "2024",
-      credential: "FCC-9584621578",
+      credential: "695768ce627ff707c97a2c6cc17828c5",
+    },
+    {
+      name: "DevOps",
+      issuer: "FIAP",
+      date: "2025",
+      credential: "b43dd411046e80afd837cOc8776ebbe6",
+    },
+    {
+      name: "Cloud Fundamentals, Administration and Solution Architect",
+      issuer: "FIAP",
+      date: "2025",
+      credential: "a18b810707ab2a764c350cdfd396f0lc",
     },
   ];
 
@@ -236,9 +248,9 @@ export default function Resume() {
                         <span className="text-gray-400 text-sm">
                           {cert.date}
                         </span>
-                        {/* <span className="text-xs text-gray-500">
+                        <span className="text-xs text-gray-500">
                           {cert.credential}
-                        </span> */}
+                        </span>
                       </div>
                     </motion.div>
                   ))}
