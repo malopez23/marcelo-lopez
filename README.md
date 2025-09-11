@@ -119,7 +119,7 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 
 ## 📬 Contact
 
-- **Email**: marcelo@example.com  
+- **Email**: malopez.rodriguez23@gmail.com
 - **LinkedIn**: [linkedin.com/in/marcelo-lopez](https://linkedin.com/in/marcelo-lopez)  
 - **GitHub**: [github.com/marcelo-lopez](https://github.com/marcelo-lopez)  
 
