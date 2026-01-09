@@ -46,7 +46,7 @@ export default function Resume() {
       degree: "Sistemas de Informação",
       institution: "FIAP",
       period: "2022 - 2025",
-      status: "Em andamento",
+      status: "Concluído",
       description:
         "Foco em desenvolvimento web, banco de dados, metodologias ágeis e gerenciamento de projetos.",
     },
