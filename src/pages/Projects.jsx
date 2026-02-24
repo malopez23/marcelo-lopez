@@ -48,9 +48,39 @@ const PROJECTS = [
     image_url: "/assets/RegencyAgenda.png",
     featured: false,
     status: "in_progress",
-    technologies: ["React", "Tailwind CSS", "Vite", "React Hook Form", "date-fns"],
+    technologies: [
+      "React",
+      "Tailwind CSS",
+      "Vite",
+      "React Hook Form",
+      "date-fns",
+    ],
     demo_url: "https://regency-agenda.vercel.app/",
     github_url: "https://github.com/malopez23/regency-agenda",
+  },
+  {
+    id: 5,
+    title: "Convert",
+    description:
+      "Uma aplicação web moderna para conversão de moedas, com interface intuitiva e responsiva.",
+    image_url: "/assets/Convert.png",
+    featured: false,
+    status: "completed",
+    technologies: ["JavaScript", "HTML", "CSS"],
+    demo_url: "https://convert-nine-tau.vercel.app",
+    github_url: "https://github.com/malopez23/convert",
+  },
+  {
+    id: 6,
+    title: "Quicklist",
+    description:
+      "Uma aplicação web moderna para criação e gerenciamento de listas de compras.",
+    image_url: "/assets/Quicklist.png",
+    featured: false,
+    status: "completed",
+    technologies: ["JavaScript", "HTML", "CSS"],
+    demo_url: "https://quicklist-tawny.vercel.app",
+    github_url: "https://github.com/malopez23/quicklist",
   },
 ];
 
@@ -240,7 +270,7 @@ export default function Projects() {
                         </span>
                         <span
                           className={`ml-2 px-2 py-0.5 rounded text-xs font-semibold border ${getStatusColor(
-                            project.status
+                            project.status,
                           )}`}
                         >
                           {getStatusText(project.status)}
