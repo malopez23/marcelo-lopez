@@ -17,7 +17,7 @@ export default function Resume() {
       period: "Out 2024 - Presente",
       location: "São Paulo, SP",
       description:
-        "Foco em qualidade de software, com conhecimento em testes funcionais, regressivos e elaboração de casos de teste. Experiência na identificação de bugs e colaboração com desenvolvedores para garantir a qualidade do software.",
+        "Atuação em qualidade de software, com experiência em testes funcionais, regressivos e validação de requisitos. Elaboração e execução de casos de teste, identificação e documentação de bugs, além de colaboração com equipes de desenvolvimento para garantir a qualidade e estabilidade das aplicações.",
       technologies: ["Azure", "Excel", "Testes Funcionais"],
     },
     {
@@ -38,12 +38,11 @@ export default function Resume() {
         "Auxiliar no Gabinete do Comandante Militar do Sudeste, responsável pelo controle de agenda, documentos, materiais e logística, com uso do Pacote Office e foco em hierarquia e disciplina.",
       technologies: ["Word", "Excel", "Power Point"],
     },
-    
   ];
 
   const education = [
     {
-      degree: "Sistemas de Informação",
+      degree: "Sistemas de Informação - Bacharelado",
       institution: "FIAP",
       period: "2022 - 2025",
       status: "Concluído",
@@ -55,8 +54,7 @@ export default function Resume() {
       institution: "Escola São José de Vila Matilde",
       period: "2015 - 2017",
       status: "Concluído",
-      description:
-        "Ensino médio completo.",
+      description: "Ensino médio completo.",
     },
   ];
 
