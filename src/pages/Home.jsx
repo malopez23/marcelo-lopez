@@ -55,11 +55,10 @@ const Home = () => (
         transition={{ duration: 0.5, delay: 0.4 }}
         className="text-xl text-gray-300 mt-4 max-w-2xl mx-auto"
       >
-        Profissional de QA e Desenvolvedor Full Stack em formação, com
-        experiência em qualidade de software, testes funcionais e
-        desenvolvimento de aplicações web. Apaixonado por tecnologia, busco
-        criar soluções eficientes, intuitivas e com foco em performance e
-        experiência do usuário.
+        Profissional de QA com atuação analítica e foco em desenvolvimento Full
+        Stack, unindo experiência em testes de software, qualidade e criação de
+        aplicações web modernas. Apaixonado por tecnologia, busco desenvolver
+        soluções eficientes, intuitivas e escaláveis.
       </motion.p>
       <motion.div
         initial={{ opacity: 0, y: 30 }}

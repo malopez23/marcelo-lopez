@@ -47,7 +47,7 @@ export default function Resume() {
       period: "2022 - 2025",
       status: "Concluído",
       description:
-        "Foco em desenvolvimento web, banco de dados, metodologias ágeis e gerenciamento de projetos.",
+        "Formado em 2026. Formação voltada para desenvolvimento de software, banco de dados, análise de sistemas, qualidade de software e desenvolvimento web Full Stack. Experiência acadêmica com tecnologias como Java, JavaScript, React, Python, SQL e metodologias ágeis, com foco na criação de soluções modernas e eficientes.",
     },
     {
       degree: "Ensino Médio",

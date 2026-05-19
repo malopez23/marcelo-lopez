@@ -48,7 +48,7 @@ export default function Profile() {
     email: "malopez.rodriguez23@gmail.com",
     phone: "+55 (11) 99999-9999",
     age: "25 anos",
-    bio: "Desenvolvedor full stack apaixonado por tecnologia e inovação. Especializado em React, Node.js e criação de interfaces modernas. Sempre em busca de novos desafios e oportunidades para crescer profissionalmente.",
+    bio: "Profissional de QA com perfil analítico e foco em desenvolvimento Full Stack. Possuo experiência em testes de software, qualidade de aplicações e desenvolvimento web com React, Node.js e tecnologias do ecossistema JavaScript. Sempre em busca de evolução contínua e novos desafios.",
   };
 
   const skillCategories = {
