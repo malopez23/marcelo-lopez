@@ -23,7 +23,12 @@ const skills = {
     { name: "Java", level: 4 },
     { name: "Python", level: 3 },
   ],
-  tools: [{ name: "Git", level: 4 }],
+  tools: [
+    { name: "Git", level: 4 },
+    { name: "Docker", level: 3 },
+    { name: "VS Code", level: 5 },
+    { name: "PowerBI", level: 3 },
+  ],
   design: [{ name: "Figma", level: 3 }],
   soft_skills: [
     { name: "Comunicação", level: 5 },
@@ -38,12 +43,12 @@ const skills = {
 export default function Profile() {
   const personalInfo = {
     name: "Marcelo Lopez",
-    title: "Desenvolvedor Front-end Júnior",
+    title: "Desenvolvedor Full Stack Júnior",
     location: "São Paulo, SP",
     email: "malopez.rodriguez23@gmail.com",
     phone: "+55 (11) 99999-9999",
     age: "25 anos",
-    bio: "Desenvolvedor front-end apaixonado por tecnologia e inovação. Especializado em React, JavaScript e criação de interfaces modernas. Sempre em busca de novos desafios e oportunidades para crescer profissionalmente.",
+    bio: "Desenvolvedor full stack apaixonado por tecnologia e inovação. Especializado em React, Node.js e criação de interfaces modernas. Sempre em busca de novos desafios e oportunidades para crescer profissionalmente.",
   };
 
   const skillCategories = {
@@ -130,8 +135,16 @@ export default function Profile() {
 
                 <div className="flex justify-center space-x-4 pt-4">
                   {[
-                    { icon: Github, href: "https://github.com/malopez23", color: "hover:text-purple-400" },
-                    { icon: Linkedin, href: "https://www.linkedin.com/in/marcelolopez23/", color: "hover:text-blue-400" },
+                    {
+                      icon: Github,
+                      href: "https://github.com/malopez23",
+                      color: "hover:text-purple-400",
+                    },
+                    {
+                      icon: Linkedin,
+                      href: "https://www.linkedin.com/in/marcelolopez23/",
+                      color: "hover:text-blue-400",
+                    },
                     {
                       icon: ExternalLink,
                       href: "#",
